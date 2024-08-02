@@ -96,12 +96,23 @@ body {
     padding: 10px;
 }
 
+.info p {
+    padding: 0;
+    margin: 0;
+}
+
+.time {
+    margin-bottom: 5px;
+}
 
 .time p{
     margin: 0;
     padding: 0  
 }
 
+.short  {
+    width: 90%;
+}
 
 .footer {
     display: flex;
@@ -122,4 +133,18 @@ body {
     border-bottom: 1px solid gray;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.footer-logo {
+    margin-top: -15px;
+    width: 50%;
+}
+.name {
+    width: 90%;
 }
